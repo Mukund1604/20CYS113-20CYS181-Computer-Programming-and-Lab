@@ -1,0 +1,17 @@
+#include<stdio.h>
+struct complex number{
+    int i=5;
+    float j;
+    double q;
+};
+s1 complex number;
+int main(){
+    printf("enter the value of j");
+    scanf("%f",&j);
+    printf("enter the value of q");
+    scanf("%lf",&q);
+    double multiplication;
+    multiplication=j*q;
+    printf("the multiplication of two complex number is %lf",multiplication);
+    return 0;
+}
